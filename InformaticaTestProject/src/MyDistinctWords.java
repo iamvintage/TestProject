@@ -149,6 +149,7 @@ public class MyDistinctWords {
 				distWords.writeFile(wordsSet, outputFile);
 				sc.close();
 				System.out.println("Processing completed. Generated " + outputFile);
+				System.out.println("test change");
 				break;
 
 			} catch (IOException ex) {
